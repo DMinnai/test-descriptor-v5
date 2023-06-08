@@ -1,0 +1,16 @@
+code: agi_transp_footer
+titles:
+  en: Transparent Administration footer
+  it: Amministrazione Trasparente footer
+group: free
+customUi: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+   <!--link text area lista link footer  (LST)-->
+     <h4>
+        <a href="https://forumpa.apps.psdemo.eng-entando.com/entando-de-app/en/homepage.page" title="Vai alla pagina:<@wp.i18n key="AMMINISTRAZIONE_TRASPARENTE" />" class="" data-focus-mouse="false">
+           <@wp.i18n key="AMMINISTRAZIONE_TRASPARENTE" />
+        </a>
+    </h4>
+    <p>
+        <@wp.i18n key="AMMINISTRAZIONE_DATI" />
+    </p>

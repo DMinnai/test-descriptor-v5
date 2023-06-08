@@ -1,0 +1,32 @@
+code: agi_menu_amm
+titles:
+  en: Administration footer
+  it: Amministrazione footer
+group: free
+customUi: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+    <!--titolo link + lista link footer (LST)-->
+    <h4>
+        <a href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /> <@wp.i18n key="ADMINISTRATION" />" class="" data-focus-mouse="false">
+            <@wp.i18n key="ADMINISTRATION" />
+        </a>
+    </h4>
+    <div class="link-list-wrapper">
+        <ul class="footer-list link-list clearfix">
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="GIUNTA" />"><@wp.i18n key="GIUNTA" /></a>
+            </li>
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="COMPETENZA" />"><@wp.i18n key="COMPETENZA" /></a>
+            </li>
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="DIPENDENTI" />"><@wp.i18n key="DIPENDENTI" /></a>
+            </li>
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="LUOGHI" />"><@wp.i18n key="LUOGHI" /></a>
+            </li>
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="ASSOCIAZIONI" />"><@wp.i18n key="ASSOCIAZIONI" /></a>
+            </li>
+        </ul>
+    </div>

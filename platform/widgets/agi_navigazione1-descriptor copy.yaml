@@ -1,0 +1,10 @@
+descriptorVersion: v5
+name: agi_navigazione
+type: widget
+titles:
+  en: Menu logico navigazione
+  it: Menu logico navigazione
+group: free
+parentName: agi_navigation_bar
+paramsDefaults:
+  navSpec: code(administration)+code(agi_news)+code(servizi)+code(documents_and_data)

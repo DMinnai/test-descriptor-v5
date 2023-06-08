@@ -1,0 +1,26 @@
+code: agi_contacts_footer
+titles:
+  en: Contacts footer
+  it: Contatti footer
+group: free
+customUi: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <!--link text area lista link footer  (LST)-->
+  <h4>
+     <a href="https://forumpa.apps.psdemo.eng-entando.com/entando-de-app/en/homepage.page" title="Vai alla pagina: <@wp.i18n key="CONTATTI" />" class="" data-focus-mouse="false">
+         <@wp.i18n key="CONTATTI" />
+     </a>
+  </h4>
+  <p>
+     <@wp.i18n key="INDIRIZZO" />
+  </p>
+  <div class="link-list-wrapper">
+     <ul class="footer-list link-list clearfix">
+         <li>
+              <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="POSTA" />"><@wp.i18n key="POSTA" /></a>
+         </li>
+         <li>
+             <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="URP" />"><@wp.i18n key="URP" /></a>
+         </li>
+     </ul>
+  </div>

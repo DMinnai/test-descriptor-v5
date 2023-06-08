@@ -1,0 +1,18 @@
+descriptorVersion: v5
+name: agi_pubblica_lista
+type: widget
+titles:
+  en: Pubblica lista test
+  it: Pubblica lista test
+group: free
+parentName: agi_content_search_query
+paramsDefaults:
+  contentType: NOV
+  modelId: '2009'
+  maxElemForItem: '1'
+  maxElements: '1'
+  filters: '(attributeFilter=false;key=created;order=DESC)+(attributeFilter=true;key=highlight;order=DESC)'
+  linkDescr_it: Tutte le novità
+  linkDescr_en: All news
+  categories: 'news'
+  pageLink: news

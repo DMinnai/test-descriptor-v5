@@ -1,0 +1,30 @@
+id: 20013
+contentType: EXL
+description: Lista di link esterni (EXL)
+contentShape: |-
+  <!--Lista di link esterni (EXL)-->
+  <div class="row pt-5">
+    <h3> $content.title.text</h3>
+  </div>
+  <div class="pt-4">
+    <div class="card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
+        #foreach ($item in $content.links)
+        <a class="card card-teaser card-bg-$item.mcolor.value rounded" href="$item.mlink.destination">
+            <div class="avatar size-lg mr-3">
+                <img class="icon" src="$item.mimg.getImagePath("0")" alt="$item.mimg.text" title="$item.mimg.text">
+                <!--<svg class="icon">
+                <use href="/entando-de-app/cmsresources/bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#it-link"></use>
+                </svg>-->
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">
+                    $item.mtitle.text
+                </h5>
+                <p class="card-text text-sans-serif">
+                    $item.msubtitle.text
+                </p>
+            </div>
+        </a>
+        #end
+    </div>
+  </div>

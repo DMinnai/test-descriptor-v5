@@ -1,0 +1,26 @@
+code: agi_news_footer
+titles:
+  en: News footer
+  it: Novità footer
+group: free
+customUi: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+    <!--titolo link + lista link footer (LST)-->
+    <h4>
+        <a href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /> <@wp.i18n key="NOVITA" />" class="" data-focus-mouse="false">
+        <@wp.i18n key="NOVITA" />
+        </a>
+    </h4>
+    <div class="link-list-wrapper">
+        <ul class="footer-list link-list clearfix">
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="NOTIZIE" />"><@wp.i18n key="NOTIZIE" /></a>
+            </li>
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="EVENTI" />"><@wp.i18n key="EVENTI" /></a>
+            </li>
+            <li>
+                <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="COMUNICATI" />"><@wp.i18n key="COMUNICATI" /></a>
+            </li>
+        </ul>
+    </div>

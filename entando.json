@@ -1,0 +1,9 @@
+{
+    "microservices": [],
+    "microfrontends": [],
+    "svc": [],
+    "name": "agid-template",
+    "version": "0.0.5",
+    "description": "agid-template description",
+    "type": "bundle"
+}

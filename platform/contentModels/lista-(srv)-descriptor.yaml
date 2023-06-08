@@ -1,0 +1,18 @@
+id: 20024
+contentType: SRV
+description: Lista (SRV)
+contentShape: |-
+  <!--lista (SRV)-->
+   <div class="it-list-wrapper">
+    <ul class="it-list">
+    <li>
+     <a href="$content.getContentOnPageLink('detail')&modelId=20018">
+        <div class="it-right-zone">
+        <span class="text">
+          $content.title.text
+        </span>
+        </div>
+     </a>
+     </li>
+    </ul>
+   </div>

@@ -1,0 +1,6 @@
+code: agi_lateral_menu
+titles:
+  en: Lateral menu
+  it: Menu laterale
+group: free
+customUi: "<h2></h2>"

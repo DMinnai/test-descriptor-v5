@@ -1,0 +1,20 @@
+descriptorVersion: v5
+name: lillo
+parentName: global:homepage
+titles:
+  en: Home test 
+  it: Home test
+pageModel: agid_template
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - name: agi_navigazione
+    config: null
+    pos: 6
+  - name: agi_pubblica_lista
+    config: null
+    pos: 8

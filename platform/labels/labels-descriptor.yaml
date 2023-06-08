@@ -1,0 +1,299 @@
+- key: COOKIE_SAVE_LABEL
+  titles:
+    en: Save preferencies
+    it: Salva preferenze
+- key: COOKIE_SETTINGS_LABEL
+  titles:
+    en: Cookie settings
+    it: 'Impostazioni dei cookie '
+- key: COOKIE_TECH_LABEL
+  titles:
+    en: 'Accept general cookies '
+    it: Accetta Cookie tecnici
+- key: COOKIE_THIRD_PART_LABEL
+  titles:
+    en: Accept third parties cookies
+    it: Accetta i cookies di terze parti
+- key: ESLC_LANG_en
+  titles:
+    en: English
+    it: Inglese
+- key: ESLC_LANG_it
+  titles:
+    en: Italian
+    it: Italiano
+- key: ESSF_SEARCH_CONTENT
+  titles:
+    en: Enter your search term
+    it: Ricerca per contenuti e informazioni
+- key: FOLLOW_US_ON
+  titles:
+    en: Follow us on
+    it: 'Seguici su '
+- key: ISCRIVITI_PER_RICEVERLA
+  titles:
+    en: Subscribe to our services
+    it: Iscrivi per riceverla
+- key: LINGUA_CORRENTE
+  titles:
+    en: ENG
+    it: ITA
+- key: MODALE_RICERCA
+  titles:
+    en: SEZIONE RICERCA
+    it: SEARCH COMPONENT
+- key: MUSTEHEAD_PA
+  titles:
+    en: Owner
+    it: Ente appartenenza
+- key: READ_MORE
+  titles:
+    en: Read more
+    it: Approfondisci
+- key: USER_ACCESS_PA
+  titles:
+    en: PA login
+    it: Login PA
+- key: VISITA_IL_SITO
+  titles:
+    en: Visit the site
+    it: Visista il sito
+- key: SEND_SUBMIT
+  titles:
+    en: Submit
+    it: Invia
+- key: SIGN_IN
+  titles:
+    en: Log in
+    it: Accedi
+- key: AUTENTICATO_NO
+  titles:
+    en: Login first
+    it: Prima accedi
+- key: AUTENTICATO_SUCCESSO
+  titles:
+    en: Access granted
+    it: Accesso eseguito
+- key: AUTENTICATO_SUCCESSO_TESTO
+  titles:
+    en: You have successfully authenticated to the Town hall services portal. Now you can use the services.
+    it: Ti sei autenticato con successo e puoi usufruire dei servizi per i cittadini residenti.
+- key: AUTENTICATO_NO_TESTO
+  titles:
+    en: With the Public Digital Identity System, you can access the online services of the Public Administration and private members in one click, every time you find the Enter with SPID button on a site or app.
+    it: Con il Sistema Pubblico di Identità Digitale accedi in un click ai servizi online della Pubblica Amministrazione e dei privati aderenti,ogni volta che su un sito o un'app trovi il pulsante Entra con SPID.
+- key: WELCOME_NO
+  titles:
+    en: To access the municipal services, log in with the SPID service
+    it: Per accedere ai servizi comunali esegui la login con il servizio di SPID
+- key: PRIVACY_INFORMATIVA_LABEL
+  titles:
+    en: Privacy policy
+    it: Informativa privacy
+- key:  PRIVACY_SETTINGS_BANNER
+  titles:
+    en: A privacy policy, also called a privacy policy or privacy policy, is a document that states what personal data you are processing, for what purpose and how you protect it.
+    it: Una politica sulla privacy, anche chiamata informativa sulla privacy o policy sulla privacy, un documento che dichiara che dati personali stai trattando, a che scopo e come gli proteggi.
+- key: SERVIZI
+  titles:
+    en: Citizen services
+    it: Servizi cittadino
+- key: ESLF_ADMINISTRATION
+  titles:
+    en: Administration
+    it: Amministrazione
+- key: CHIUDI
+  titles:
+    en: Close
+    it: Chiudi
+- key: PA_SERVICE_SHARE
+  titles:
+    en: Service status halted
+    it: Servizio sospseso momentaneamente
+- key: READ_MORE
+  titles:
+    en: Read more
+    it: Approfondisci
+- key: ADMINISTRATION
+  titles:
+    en: Administration
+    it: Amministrazione
+- key: GIUNTA
+  titles:
+    en: Council
+    it: Giunta e consiglio
+- key: COMPETENZA
+  titles:
+    en: Areas of expertise
+    it: Aree di competenza
+- key: DIPENDENTI
+  titles:
+    en: Employees
+    it: Dipendenti
+- key: LUOGHI
+  titles:
+    en: Places
+    it: Luoghi
+- key: ASSOCIAZIONI
+  titles:
+    en: Associations and investee companies
+    it: Associazioni e società partecipate
+- key: VAI_A
+  titles:
+    en: Go to page
+    it: Vai alla pagina
+- key: AUTORIZZAZIONI
+  titles:
+    en: Authorizations
+    it: Autorizzazioni
+- key: CERTIFICATI
+  titles:
+    en: Certificates
+    it: Certificati
+- key: SEGNALAZIONI
+  titles:
+    en: Reports
+    it: Segnalazioni
+- key: DOMANDE
+  titles:
+    en: Questions
+    it: Domande
+- key: SOSTEGNO
+  titles:
+    en: Support
+    it: Sostegno
+- key: PAGAMENTI
+  titles:
+    en: Payments
+    it: Pagamenti
+- key: SERVIZI_F
+  titles:
+    en: Services
+    it: Servizi
+- key: NOTIZIE
+  titles:
+    en: News
+    it: Notizie
+- key: EVENTI
+  titles:
+    en: Events
+    it: Eventi
+- key: NOVITA
+  titles:
+    en: News
+    it: Novità
+- key: DOCUMENTI
+  titles:
+    en: Documents
+    it: Documenti
+- key: ALBO
+  titles:
+    en: Praetorian notice board
+    it: Albo pretorio
+- key: CONCORSI
+  titles:
+    en: Contests
+    it: Concorsi
+- key: BANDI
+  titles:
+    en: Notices
+    it: Bandi
+- key: PROGETTI
+  titles:
+    en: Projects
+    it: Progetti
+- key: DELIBERE
+  titles:
+    en: Resolutions
+    it: Delibere
+- key: CONTATTI
+  titles:
+    en: Contact us
+    it: Contatti
+- key: INDIRIZZO
+  titles:
+    en: PA name Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA- 000000000
+    it: Nome PA Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA- 000000000
+- key: POSTA
+  titles:
+    en: Certified mail
+    it: Posta certificata PEC
+- key: URP
+  titles:
+    en: URP - Public Relations Office
+    it: URP - Ufficio Relazioni con il Pubblico
+- key: AMMINISTRAZIONE_TRASPARENTE
+  titles:
+    en: Transparent administration
+    it: Amministrazione trasparente
+- key: AMMINISTRAZIONE_DATI
+  titles:
+    en: The personal data published can be reused only under the conditions provided for by the Community Directive 2003/98 / EC and by Legislative Decree 36/2006
+    it: I dati personali pubblicati sono riutilizzabili solo alle condizioni previste dalla direttiva comunitaria 2003/98/CE e dal d.lgs. 36/2006
+- key: NOME
+  titles:
+    en: Municipality name
+    it: Nome del Comune
+- key: STRAPLINE_NOME
+  titles:
+    en: Municipality  strapline
+    it: Uno dei tanti comuni
+- key: CANTIERI
+  titles:
+    en: Construction sites
+    it: Cantieri in città
+- key: ARGOMENTI
+  titles:
+    en: Topics
+    it: Argomenti
+- key: SPORT
+  titles:
+    en: Sport
+    it: Sport
+- key: CULTURA
+  titles:
+    en: Culture
+    it: Cultura
+- key: FILTRO
+  titles:
+    en: Add filter
+    it: Aggiungi filtro
+- key: ETICHETTA
+  titles:
+    en: Delete label
+    it: Elimina etichetta
+- key: AGI_CERCA
+  titles:
+    en: Search contents on
+    it: Cerca contenuti in
+- key: TUTTO
+  titles:
+    en: All
+    it: Tutto
+- key: COMUNICATI
+  titles:
+    en: Notices
+    it: Comunicati
+- key: FILTRI
+  titles:
+    en: Filters
+    it: Filtri
+- key: MEDIA
+  titles:
+    en: Media policy
+    it: Media policy
+- key: NOTE
+  titles:
+    en: Legal notes
+    it: Note legali
+- key: PRIVACY_P
+  titles:
+    en: Privacy policy
+    it: Privacy policy
+- key: MAPPA
+  titles:
+    en: Sitemap
+    it: Mappa del sito
+
+
+

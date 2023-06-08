@@ -1,0 +1,46 @@
+id: 20019
+contentType: SRV
+description: Card singola servizi (SRV)
+contentShape: |-
+  <!-- Card singola servizi (SRV) -->
+  <div class="col-12 col-sm-6 col-lg-4">
+     <!--start card-->
+     <article class="card-wrapper card-space">
+         <div class="card card-bg card-big rounded shadow">
+             <div class="flag-icon"></div>
+            <div class="etichetta">
+                <svg class="icon">
+                <use href="/entando-de-app/cmsresources/bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#$content.belong.mapKey"></use>
+                </svg>
+                #foreach ($contentCategory in $content.getCategories())
+                <span>
+                    $contentCategory.title
+                </span>
+                #end
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">$content.title.text</h5>
+                <p class="card-text">$content.subtitle.text</p>
+
+                #if($content.links.size() >0 )
+                #foreach ($item in $content.links)
+                <button type="button" class="btn btn-primary btn-lg btn-block hideme d-none disabled">
+                  $item.mlink.text
+                </button>
+                #end
+                #end
+
+                <a class="read-more" href="$content.getContentOnPageLink("detail")&modelId=20018">
+                    <span class="text">
+                        $i18n.getLabel('READ_MORE')
+                    </span>
+                    <svg class="icon" aria-labelledby="$content.getId()" >
+                    <title id="$content.getId()">$content.getId()</title>
+                    <use xlink:href="/entando-de-app/cmsresources/bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#it-arrow-right"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </article>
+    <!--end card-->
+  </div>

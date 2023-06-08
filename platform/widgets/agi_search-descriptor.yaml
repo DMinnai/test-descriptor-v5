@@ -1,0 +1,40 @@
+code: agi_search
+titles:
+  en: Search agid
+  it: Cerca agid
+group: free
+customUi: >-
+  <#assign wp=JspTaglibs["/aps-core"]> <div class="it-search-wrapper"> <span class="d-none d-md-block">
+      <@wp.i18n key="ESSF_SEARCH" />
+  </span>
+   <a class="search-link rounded-icon" aria-label="Cerca nel sito" href="#" data-toggle="modal" data-target="#modaleRicerca">
+    <svg class="icon" aria-labelledby="<@wp.i18n key="ESSF_SEARCH" />" >
+      <title><@wp.i18n key="ESSF_SEARCH" /></title>
+      <use href="<@wp.resourceURL />bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#it-search"></use>
+    </svg>
+   </a>
+  </div>
+
+  <!-- Modale ricerca -->
+   <div class="modal fade" tabindex="-1" role="dialog" id="modaleRicerca" aria-labelled="modaleRicercaTitle">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalTitle">
+              <button class="search-close" type="button" data-dismiss="modal" aria-labelled="Chiudi ricerca">
+                <svg class="icon" aria-labelledby="<@wp.i18n key="ESSF_SEARCH" />">
+                  <title id="<@wp.i18n key="ESSF_SEARCH" />"><@wp.i18n key="ESSF_SEARCH" /></title>
+                  <use xlink:href="<@wp.resourceURL />bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#it-chevron-left"></use>
+                </svg>
+             </button>
+             <@wp.i18n key="ESSF_SEARCH" />
+          </h5>
+       </div>
+       <div class="modal-body">
+          <form class="search" action="<@wp.url page="risultato_ricerca" />" method="get">
+             <input type="text" name="search" class="modal-search" placeholder="<@wp.i18n key="ESSF_SEARCH_CONTENT" />" aria-label="<@wp.i18n key="ESSF_SEARCH_CONTENT" />" />
+          </form>
+       </div>
+    </div>
+   </div>
+  </div>

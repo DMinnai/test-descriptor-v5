@@ -1,0 +1,89 @@
+descriptorVersion: v5
+name: agi_content_search_query
+type: widget
+titles:
+  en: Agid Content search query
+  it: Agid pubblica lista di contenuti
+group: free
+customUi: |-
+  <#assign jacms=JspTaglibs["/jacms-aps-core"]>
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <@jacms.contentList listName="contentList" titleVar="titleVar"
+  pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
+
+     <#if (titleVar??)>
+     <div>
+        <div class="line_title"></div>
+         <div class="row">
+            <h2 class="text-white">${titleVar}</h2>
+          </div>
+        </#if>
+        <div class="py-3">
+     </div>
+
+     <@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
+     <@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false />
+     </@wp.freemarkerTemplateParameter>
+     <#if (contentList??) && (contentList?has_content) && (contentList?size > 0)>
+     <@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
+     <@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
+     <@wp.fragment code="default_pagerBlock" escapeXml=false />
+     <div class="row">
+        <div class="card-wrapper card-teaser-wrapper card-overlapping card-teaser-wrapper-equal card-teaser-block-3">
+           <#list contentList as contentId>
+           <#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
+           <@jacms.content contentId="${contentId}" />
+           </#if>
+           </#list>
+        </div>
+     </div>
+     <@wp.fragment code="default_pagerBlock" escapeXml=false />
+     </@wp.freemarkerTemplateParameter>
+     </@wp.pager>
+     <#else>
+     <p class="alert alert-info">
+        <@wp.i18n key="LIST_VIEWER_EMPTY" />
+     </p>
+     </#if>
+     <#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
+     <div class="">
+        <a class="pb-3 read-more" href="<@wp.url page="${pageLinkVar}"/>">
+        <span class="text">${pageLinkDescriptionVar}</span>
+        <svg class="icon" aria-labelledby="<@wp.i18n key="READ_MORE" />">
+    <title id="<@wp.i18n key="READ_MORE" />"><@wp.i18n key="READ_MORE" /></title>
+         <use href="<@wp.resourceURL />bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#it-arrow-right"></use>
+        </svg>
+        </a>
+     </div>
+     </#if>
+     <#assign contentList="">
+  </div>
+  </div>
+  </div>
+  <#if (titleVar??)>
+  </div>
+  </#if>
+params:
+  - name: contentType
+    description: Content Type (mandatory)
+  - name: modelId
+    description: Content Model
+  - name: userFilters
+    description: Front-End user filter options
+  - name: categories
+    description: Content Category codes (comma separeted)
+  - name: orClauseCategoryFilter
+    description: Publishing Order (ASC DESC NONE)
+  - name: maxElemForItem
+    description: Contents for each page
+  - name: maxElements
+    description: Number of contents
+  - name: filters
+    description: List of filters (ex.attributeFilter=false;key=created,order=DESC)+...)
+  - name: title_{lang}
+    description: Widget Title in lang {lang}
+  - name: pageLink
+    description: The code of the Page to link
+  - name: linkDescr_{lang}
+    description: Link description in lang
+configMfe: 'global:listViewerConfig'

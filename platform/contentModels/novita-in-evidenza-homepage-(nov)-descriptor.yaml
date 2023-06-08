@@ -1,0 +1,35 @@
+id: 2009
+contentType: NOV
+description: Novità in evidenza homepage (NOV)
+contentShape: |-
+  <!--Novità in evidenza homepage (NOV)-->
+  <div class="col-lg-6 order-lg-2 offset-lg-1">
+      <img src="$content.img.getImagePath('0')" alt="$content.img.text" title="$content.img.text" class="img-fluid">
+  </div>
+  <div class="col-lg-5 order-lg-1">
+      <div class="card-wrapper">
+         <div class="card">
+             <div class="pb-5 card-body">
+                 <div class="category-top categoryicon-top">
+                     <svg class="icon">
+                     <use xlink:href="/entando-de-app/cmsresources/bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#it-calendar"></use>
+                     </svg>
+                     <span class="text">
+                         $content.type.text
+                     </span>
+                     <span class="data">
+                         $content.date.getFormattedDate("dd MMMM yyyy")
+                     </span>
+                 </div>
+                 <a href="$content.getContentOnPageLink('dettaglio_novita')&modelId=20021">
+                     <h4 class="card-title">
+                         $content.title.text
+                     </h4>
+                 </a>
+                 <p class="card-text">
+                     $content.subtitle.text
+                 </p>
+             </div>
+         </div>
+     </div>
+  </div>
