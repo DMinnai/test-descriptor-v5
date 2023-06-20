@@ -1,4 +1,6 @@
-code: agi_breadcrumb
+descriptorVersion: v5
+name: agi_breadcrumb
+type: widget
 titles:
   en: Breadcrumb agid
   it: Breadcrumb agid

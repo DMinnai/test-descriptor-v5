@@ -1,0 +1,16 @@
+descriptorVersion: v5
+name: agi_home_argomenti_evidenza
+type: widget
+titles:
+  en: Highlights topics home
+  it: Argomenti in evidenza home
+group: free
+parentName: agi_content_search_query
+paramsDefaults:
+  contentType: ARG
+  modelId: '20011'
+  maxElemForItem: '3'
+  filters: '(attributeFilter=false;key=created;order=DESC)+(attributeFilter=true;key=highlight;order=DESC)'
+  title_it: Argomenti in evidenza
+  title_en: Highlights topics
+  categories: 'topics'

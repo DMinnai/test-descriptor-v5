@@ -1,4 +1,6 @@
-code: agi_login_form
+descriptorVersion: v5
+name: agi_login_form
+type: widget
 titles:
     en: AGID Basic login
     it: AGID Basic login

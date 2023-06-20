@@ -1,4 +1,6 @@
-code: agi_logo_comune
+descriptorVersion: v5
+name: agi_logo_comune
+type: widget
 titles:
   en: Logo municipality
   it: Logo comune con intestazione

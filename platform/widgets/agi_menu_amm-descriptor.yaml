@@ -1,4 +1,6 @@
-code: agi_menu_amm
+descriptorVersion: v5
+name: agi_menu_amm
+type: widget
 titles:
   en: Administration footer
   it: Amministrazione footer

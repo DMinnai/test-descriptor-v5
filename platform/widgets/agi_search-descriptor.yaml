@@ -1,4 +1,6 @@
-code: agi_search
+descriptorVersion: v5
+name: agi_search
+type: widget
 titles:
   en: Search agid
   it: Cerca agid

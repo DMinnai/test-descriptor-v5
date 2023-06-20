@@ -1,6 +1,10 @@
-code: agi_secondary_menu
+descriptorVersion: v5
+name: agi_secondary_menu
+type: widget
 titles:
   en: Secondary menu
   it: Menu secondario
 group: free
-customUi: "<h2></h2>"
+parentName: agi_navigation_bar
+paramsDefaults:
+  navSpec: code(administration)+code(agi_news)+code(servizi)+code(documents_and_data)

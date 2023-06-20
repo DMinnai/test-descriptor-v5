@@ -1,0 +1,17 @@
+descriptorVersion: v5
+name: agi_notizie_all_lista
+type: widget
+titles:
+  en: All news
+  it: Tutte le novità
+group: free
+parentName: agi_content_search_query
+paramsDefaults:
+  contentType: CRN
+  modelId: '20017'
+  maxElemForItem: '3'
+  maxElements: '3'
+  filters: '(attributeFilter=false;key=created;order=DESC)'
+  title_it: Tutte le novità
+  title_en: All news
+  categories: 'link_novit'

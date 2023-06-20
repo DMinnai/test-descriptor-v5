@@ -1,0 +1,17 @@
+descriptorVersion: v5
+name: agi_notizie_highlight_lista
+type: widget
+titles:
+  en: Highlight news
+  it: Notizia in evidenza
+group: free
+parentName: agi_content_search_query
+paramsDefaults:
+  contentType: NOV
+  modelId: '20016'
+  maxElemForItem: '3'
+  maxElements: '3'
+  filters: '(attributeFilter=false;key=created;order=DESC)+(attributeFilter=true;key=highlight;order=DESC)'
+  title_it: In evidenza
+  title_en: Highlights
+  categories: 'news'

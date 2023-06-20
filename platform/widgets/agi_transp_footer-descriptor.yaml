@@ -1,4 +1,6 @@
-code: agi_transp_footer
+descriptorVersion: v5
+name: agi_transp_footer
+type: widget
 titles:
   en: Transparent Administration footer
   it: Amministrazione Trasparente footer

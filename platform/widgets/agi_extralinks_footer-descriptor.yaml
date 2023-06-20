@@ -1,4 +1,6 @@
-code: agi_extralinks_footer
+descriptorVersion: v5
+name: agi_extralinks_footer
+type: widget
 titles:
   en: Footer extra links
   it: Footer extra links

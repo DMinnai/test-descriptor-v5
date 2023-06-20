@@ -1,4 +1,6 @@
-code: agi_news_footer
+descriptorVersion: v5
+name: agi_news_footer
+type: widget
 titles:
   en: News footer
   it: Novità footer

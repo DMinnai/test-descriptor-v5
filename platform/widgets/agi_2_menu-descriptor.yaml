@@ -1,0 +1,10 @@
+descriptorVersion: v5
+name: agi-2-menu
+type: widget
+titles:
+  en: Agid 2nd menu  
+  it: Agid menu secondario 
+group: free
+parentName: agi_navigation_bar
+paramsDefaults:
+  navSpec: code(topics)+code(cantieri)+code(sport)+code(cultura)

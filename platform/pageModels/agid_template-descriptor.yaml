@@ -14,7 +14,7 @@ configuration:
       description: Scelta lingua 1
       mainFrame: false
       defaultWidget:
-        code: agi_language
+        code: agi_language-93926de7
         properties: null
       sketch:
         x1: 8
@@ -33,7 +33,7 @@ configuration:
       description: Logo+PA 3
       mainFrame: false
       defaultWidget:
-        code: agi_logo_comune
+        code: agi_logo_comune-93926de7
         properties: null
       sketch:
         x1: 0
@@ -44,7 +44,7 @@ configuration:
       description: Social 4
       mainFrame: false
       defaultWidget:
-        code: agi_followus
+        code: agi_followus-93926de7
         properties: null
       sketch:
         x1: 5
@@ -55,7 +55,7 @@ configuration:
       description: Cerca 5
       mainFrame: false
       defaultWidget:
-        code: agi_search
+        code: agi_search-93926de7
         properties: null
       sketch:
         x1: 9
@@ -66,7 +66,7 @@ configuration:
       description: Menu 6
       mainFrame: false
       defaultWidget:
-        code: agi-1-menu
+        code: agi-1-menu-93926de7
         properties: null
       sketch:
         x1: 0
@@ -77,7 +77,7 @@ configuration:
       description: Menu secondario 7
       mainFrame: false
       defaultWidget:
-        code: agi-2-menu
+        code: agi-2-menu-93926de7
         properties: null
       sketch:
         x1: 6
@@ -152,7 +152,7 @@ configuration:
       description: footer logo PA 16
       mainFrame: false
       defaultWidget:
-        code: agi_logo_comune_footer
+        code: agi_logo_comune_footer-93926de7
         properties: null
       sketch:
         x1: 0
@@ -163,7 +163,7 @@ configuration:
       description: footer 17
       mainFrame: false
       defaultWidget:
-        code: agi_menu_amm
+        code: agi_menu_amm-93926de7
         properties: null
       sketch:
         x1: 0
@@ -174,7 +174,7 @@ configuration:
       description: footer 18
       mainFrame: false
       defaultWidget:
-        code: agi_services_footer
+        code: agi_services_footer-93926de7
         properties: null
       sketch:
         x1: 3
@@ -185,7 +185,7 @@ configuration:
       description: Footer 19
       mainFrame: false
       defaultWidget:
-        code: agi_news_footer
+        code: agi_news_footer-93926de7
         properties: null
       sketch:
         x1: 6
@@ -196,7 +196,7 @@ configuration:
       description: Footer 20
       mainFrame: false
       defaultWidget:
-        code: agi_docs_footer
+        code: agi_docs_footer-93926de7
         properties: null
       sketch:
         x1: 9
@@ -207,7 +207,7 @@ configuration:
       description: Footer 21
       mainFrame: false
       defaultWidget:
-        code: agi_transp_footer
+        code: agi_transp_footer-93926de7
         properties: null
       sketch:
         x1: 0
@@ -218,7 +218,7 @@ configuration:
       description: Footer 22
       mainFrame: false
       defaultWidget:
-        code: agi_contacts_footer
+        code: agi_contacts_footer-93926de7
         properties: null
       sketch:
         x1: 3
@@ -237,7 +237,7 @@ configuration:
       description: Footer 24
       mainFrame: false
       defaultWidget:
-        code: agi_follow_footer
+        code: agi_follow_footer-93926de7
         properties: null
       sketch:
         x1: 9
@@ -248,7 +248,7 @@ configuration:
       description: Footer colonna 12 25
       mainFrame: false
       defaultWidget:
-        code: agi_extralinks_footer
+        code: agi_extralinks_footer-93926de7
         properties: null
       sketch:
         x1: 0

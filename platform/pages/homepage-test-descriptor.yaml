@@ -12,9 +12,51 @@ seo: false
 charset: utf-8
 status: published
 widgets:
+  - name: agi_language
+    config: null
+    pos: 1
+  - name: agi_login_form
+    config: null
+    pos: 2
+  - name: agi_logo_comune
+    config: null
+    pos: 3
+  - name: agi_followus
+    config: null
+    pos: 4
+  - name: agi_search
+    config: null
+    pos: 5
   - name: agi_navigazione
     config: null
     pos: 6
-  - name: agi_pubblica_lista
+  - name: agi_notizia_evidenza
     config: null
     pos: 8
+  - name: agi_logo_comune_footer
+    config: null
+    pos: 16
+  - code: agi_menu_amm-93926de7
+    config: null
+    pos: 17
+  - code: agi_services_footer-93926de7
+    config: null
+    pos: 18
+  - code: agi_news_footer-93926de7
+    config: null
+    pos: 19
+  - code: agi_docs_footer-93926de7
+    config: null
+    pos: 20
+  - code: agi_transp_footer-93926de7
+    config: null
+    pos: 21
+  - code: agi_contacts_footer-93926de7
+    config: null
+    pos: 22
+  - code: agi_follow_footer-93926de7
+    config: null
+    pos: 24
+  - code: agi_extralinks_footer-93926de7
+    config: null
+    pos: 25

@@ -1,4 +1,6 @@
-code: agi_log_spid
+descriptorVersion: v5
+name: agi_log_spid
+type: widget
 titles:
   en: Login Spid Agid
   it: Login Spid Agid

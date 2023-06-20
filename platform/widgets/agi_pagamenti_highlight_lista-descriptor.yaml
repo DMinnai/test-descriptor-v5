@@ -1,0 +1,17 @@
+descriptorVersion: v5
+name: agi_pagamenti_highlight_lista
+type: widget
+titles:
+  en: Highlight taxes and payments
+  it: Pagamenti e tributi in evidenza
+group: free
+parentName: agi_content_search_query
+paramsDefaults:
+  contentType: SRV
+  modelId: '20019'
+  maxElemForItem: '10'
+  maxElements: '10'
+  filters: '(attributeFilter=false;key=created;order=DESC)+(attributeFilter=true;key=highlight;order=DESC)'
+  title_it: Pagamenti e tributi in evidenza
+  title_en: Highlight taxes and payments
+  categories: 'payments'

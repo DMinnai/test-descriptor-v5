@@ -1,0 +1,17 @@
+descriptorVersion: v5
+name: agi_administration_related
+type: widget
+titles:
+  en: Highlight administration topics
+  it: Notizie amministrazione
+group: free
+parentName: agi_content_search_query
+paramsDefaults:
+  contentType: CRA
+  modelId: '20015'
+  maxElemForItem: '9'
+  maxElements: '9'
+  filters: '(attributeFilter=false;key=created;order=DESC)'
+  title_it: Tutta L'amministrazione
+  title_en: Administration
+  categories: 'link_administration'

@@ -59,7 +59,7 @@ attributes:
             value:
               destType: 2
               urlDest: null
-              pageDest: topics
+              pageDest: topics_93926de7
               contentDest: null
               resourceDest: null
               symbolicDestination: '#!P;topics!#'
@@ -92,7 +92,7 @@ attributes:
     value:
       destType: 2
       urlDest: null
-      pageDest: topics
+      pageDest: topics_93926de7
       contentDest: null
       resourceDest: null
       symbolicDestination: '#!P;topics!#'

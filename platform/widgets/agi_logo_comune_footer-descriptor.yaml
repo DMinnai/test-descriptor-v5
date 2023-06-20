@@ -1,4 +1,6 @@
-code: agi_logo_comune_footer
+descriptorVersion: v5
+name: agi_logo_comune_footer
+type: widget
 titles:
   en: Logo municipality footer
   it: Logo comune footer

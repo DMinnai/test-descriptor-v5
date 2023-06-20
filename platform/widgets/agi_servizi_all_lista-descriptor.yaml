@@ -1,0 +1,17 @@
+descriptorVersion: v5
+name: agi_services_all_lista
+type: widget
+titles:
+  en: All services
+  it: Tutti i servizi
+group: free
+parentName: agi_content_search_query
+paramsDefaults:
+  contentType: CRN
+  modelId: '20017'
+  maxElemForItem: '10'
+  maxElements: '10'
+  filters: '(attributeFilter=false;key=created;order=DESC)'
+  title_it: Tutti i servizi
+  title_en: All services
+  categories: 'services'

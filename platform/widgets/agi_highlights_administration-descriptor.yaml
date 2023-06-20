@@ -1,0 +1,17 @@
+descriptorVersion: v5
+name: agi_highlights_administration
+type: widget
+titles:
+  en: Highlight news home
+  it: Notizia in evidenza home
+group: free
+parentName: agi_content_search_query
+paramsDefaults:
+  contentType: CRA
+  modelId: '20014'
+  maxElemForItem: '9'
+  maxElements: '9'
+  filters: '(attributeFilter=false;key=created;order=DESC)+(attributeFilter=true;key=highlight;order=DESC)'
+  title_it: In evidenza
+  title_en: Highlights
+  categories: 'adminstration'

@@ -1,0 +1,15 @@
+descriptorVersion: v5
+name: agi_home_pubblica_lista
+type: widget
+titles:
+  en: News lists home
+  it: Lista notizie home
+group: free
+parentName: agi_content_search_query
+paramsDefaults:
+  contentType: NOV
+  modelId: '20010'
+  maxElemForItem: '3'
+  maxElements: '3'
+  filters: '(attributeFilter=false;key=created;order=DESC)+(attributeFilter=true;key=highlight;order=DESC)'
+  categories: 'adminstration,documents_and_data,services,news'

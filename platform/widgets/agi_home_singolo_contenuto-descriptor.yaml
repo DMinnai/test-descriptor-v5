@@ -1,0 +1,11 @@
+descriptorVersion: v5
+name: agi_home_singolo_contenuto
+type: widget
+titles:
+  en: Single content home
+  it: Contenuto singolo home
+group: free
+parentName: agi_content_single
+paramsDefaults:
+  modelId: '20013'
+  contentId: 'EXL198'

@@ -1,4 +1,6 @@
-code: agi_followus
+descriptorVersion: v5
+name: agi_followus
+type: widget
 titles:
   en: Follow us agid
   it: Seguici agid

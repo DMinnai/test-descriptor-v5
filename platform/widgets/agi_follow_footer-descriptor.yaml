@@ -1,8 +1,10 @@
-code: agi_follow_footer
+descriptorVersion: v5
+name: agi_follow_footer
 titles:
   en: Follow us footer
   it: Seguici footer
 group: free
+type: widget
 customUi: |-
   <#assign wp=JspTaglibs["/aps-core"]>
    <!--titolo link + lista link footer (LST)-->

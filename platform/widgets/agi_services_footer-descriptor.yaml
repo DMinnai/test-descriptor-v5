@@ -1,4 +1,6 @@
-code: agi_services_footer
+descriptorVersion: v5
+name: agi_services_footer
+type: widget
 titles:
   en: Services footer
   it: Servizi footer

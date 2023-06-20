@@ -1,0 +1,17 @@
+descriptorVersion: v5
+name: agi_urban_catasto_evidenza
+type: widget
+titles:
+  en: All about land registry and urban planning
+  it: Tutto su catasto e urbanistica
+group: free
+parentName: agi_content_search_query
+paramsDefaults:
+  contentType: SRV
+  modelId: '20019'
+  maxElemForItem: '20'
+  maxElements: '20'
+  filters: '(attributeFilter=false;key=created;order=DESC)+(attributeFilter=true;key=highlight;order=DESC)'
+  title_it: Tutto su catasto e urbanistica
+  title_en: All about land registry and urban planning
+  categories: 'land_registry'

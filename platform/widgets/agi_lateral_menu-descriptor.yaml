@@ -1,6 +1,10 @@
-code: agi_lateral_menu
+descriptorVersion: v5
+name: agi_lateral_menu
+type: widget
 titles:
-  en: Lateral menu
-  it: Menu laterale
+  en: Agid Lateral menu
+  it: Menu laterale agid
 group: free
-customUi: "<h2></h2>"
+parentName: agi_navigation_bar
+paramsDefaults:
+  navSpec: code(administration)

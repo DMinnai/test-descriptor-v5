@@ -31,7 +31,7 @@ attributes:
             value:
               destType: 2
               urlDest: null
-              pageDest: homepage
+              pageDest: homepage_93926de7
               contentDest: null
               resourceDest: null
               symbolicDestination: '#!P;homepage!#'
@@ -85,7 +85,7 @@ attributes:
             value:
               destType: 2
               urlDest: null
-              pageDest: homepage
+              pageDest: homepage_93926de7
               contentDest: null
               resourceDest: null
               symbolicDestination: '#!P;homepage!#'
@@ -139,7 +139,7 @@ attributes:
             value:
               destType: 2
               urlDest: null
-              pageDest: homepage
+              pageDest: homepage_93926de7
               contentDest: null
               resourceDest: null
               symbolicDestination: '#!P;homepage!#'

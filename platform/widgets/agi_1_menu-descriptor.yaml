@@ -1,0 +1,10 @@
+descriptorVersion: v5
+name: agi-1-menu
+type: widget
+titles:
+  en: Agid main menu
+  it: Agid menu primario
+group: free
+parentName: agi_navigation_bar
+paramsDefaults:
+  navSpec: code(administration)+code(news)+code(documents_and_data)+code(servizi)

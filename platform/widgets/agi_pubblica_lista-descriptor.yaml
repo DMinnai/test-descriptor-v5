@@ -1,9 +1,9 @@
 descriptorVersion: v5
-name: agi_pubblica_lista
+name: agi_notizia_evidenza
 type: widget
 titles:
-  en: Pubblica lista test
-  it: Pubblica lista test
+  en: Highlight news home
+  it: Notizia in evidenza home
 group: free
 parentName: agi_content_search_query
 paramsDefaults:

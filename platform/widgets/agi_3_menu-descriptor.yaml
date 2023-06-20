@@ -1,0 +1,10 @@
+descriptorVersion: v5
+name: agi-3-menu
+type: widget
+titles:
+  en: Agid lateral menu
+  it: Agid menu laterale
+group: free
+parentName: agi_navigation_bar
+paramsDefaults:
+  navSpec: current.children

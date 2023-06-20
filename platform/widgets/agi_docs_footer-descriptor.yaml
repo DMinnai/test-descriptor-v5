@@ -1,4 +1,6 @@
-code: agi_docs_footer
+descriptorVersion: v5
+name: agi_docs_footer
+type: widget
 titles:
   en: Documents footer
   it: Documenti footer

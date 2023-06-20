@@ -1,4 +1,6 @@
-code: agi_language
+descriptorVersion: v5
+name: agi_language
+type: widget
 titles:
   en: Choose language agid
   it: Scelta lingua agid
