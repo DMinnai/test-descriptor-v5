@@ -15,7 +15,7 @@ customUi: |-
     </h4>
     <ul class="list-inline text-left social">
         <li class="list-inline-item">
-            <a class="p-2 text-white" href="<@wp.url page="homepage" />" target="_blank" data-focus-mouse="false">
+            <a class="p-2 text-white" href="<@wp.url page="homepage_93926de7" />" target="_blank" data-focus-mouse="false">
                 <svg class="icon icon-sm icon-white align-top">
                 <title>designers-italia</title>
                 <use xlink:href="/entando-de-app/cmsresources/bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#it-designers-italia"></use>
@@ -23,7 +23,7 @@ customUi: |-
                 <span class="sr-only">designers-italia</span></a>
         </li>
         <li class="list-inline-item">
-            <a class="p-2 text-white" href="<@wp.url page="homepage" />" target="_blank">
+            <a class="p-2 text-white" href="<@wp.url page="homepage_93926de7" />" target="_blank">
                 <svg class="icon icon-sm icon-white align-top">
                 <title>twitter</title>
                 <use xlink:href="/entando-de-app/cmsresources/bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#it-twitter"></use>
@@ -31,7 +31,7 @@ customUi: |-
                 <span class="sr-only">twitter</span></a>
         </li>
         <li class="list-inline-item">
-            <a class="p-2 text-white" href="<@wp.url page="homepage" />" target="_blank">
+            <a class="p-2 text-white" href="<@wp.url page="homepage_93926de7" />" target="_blank">
                 <svg class="icon icon-sm icon-white align-top">
                 <title>medium</title>
                 <use xlink:href="/entando-de-app/cmsresources/bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#it-medium"></use>
@@ -39,7 +39,7 @@ customUi: |-
                 <span class="sr-only">medium</span></a>
         </li>
         <li class="list-inline-item">
-            <a class="p-2 text-white" href="<@wp.url page="homepage" />" target="_blank">
+            <a class="p-2 text-white" href="<@wp.url page="homepage_93926de7" />" target="_blank">
                 <svg class="icon icon-sm icon-white align-top">
                 <title>Behance</title>
                 <use xlink:href="/entando-de-app/cmsresources/bundles/agid-template-93926de7/resources/agi-template/img/sprite.svg#it-Behance"></use>

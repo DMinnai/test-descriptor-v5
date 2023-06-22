@@ -26,7 +26,7 @@ customUi: |-
         <div class="link-list-wrapper">
             <ul class="link-list">
                <li>
-                    <a class="list-item" href="<@wp.url page="servizi" />" >
+                    <a class="list-item" href="<@wp.url page="servizi_93926de7" />" >
                      <span><@wp.i18n key="SERVIZI" /></span>
                     </a>
                 </li>

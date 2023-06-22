@@ -33,7 +33,7 @@ customUi: >-
           </h5>
        </div>
        <div class="modal-body">
-          <form class="search" action="<@wp.url page="risultato_ricerca" />" method="get">
+          <form class="search" action="<@wp.url page="risultato_ricerca_93926de7" />" method="get">
              <input type="text" name="search" class="modal-search" placeholder="<@wp.i18n key="ESSF_SEARCH_CONTENT" />" aria-label="<@wp.i18n key="ESSF_SEARCH_CONTENT" />" />
           </form>
        </div>

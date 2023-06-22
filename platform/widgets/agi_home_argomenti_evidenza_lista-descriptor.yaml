@@ -10,6 +10,7 @@ paramsDefaults:
   contentType: ARG
   modelId: '20011'
   maxElemForItem: '3'
+  maxElements: '3'
   filters: '(attributeFilter=false;key=created;order=DESC)+(attributeFilter=true;key=highlight;order=DESC)'
   title_it: Argomenti in evidenza
   title_en: Highlights topics

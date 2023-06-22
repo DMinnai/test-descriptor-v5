@@ -258,6 +258,17 @@ configuration:
         y1: 13
         x2: 11
         y2: 13
+    - pos: 26
+      description: cookie colonna 12 26
+      mainFrame: false
+      defaultWidget:
+        code: agi_cookie-93926de7
+        properties: null
+      sketch:
+        x1: 0
+        y1: 14
+        x2: 11
+        y2: 14
 template: |-
   <#assign wp=JspTaglibs["/aps-core"]>
   <#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
@@ -449,5 +460,6 @@ template: |-
         </div>
     </footer>
     <@wp.fragment code="agi_footer" escapeXml=false />
+    <@wp.show frame=26 />
   </body>
    </html>

@@ -19,10 +19,10 @@ customUi: |-
   <div class="link-list-wrapper">
      <ul class="footer-list link-list clearfix">
          <li>
-              <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="POSTA" />"><@wp.i18n key="POSTA" /></a>
+              <a class="list-item" href="<@wp.url page="homepage_93926de7" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="POSTA" />"><@wp.i18n key="POSTA" /></a>
          </li>
          <li>
-             <a class="list-item" href="<@wp.url page="homepage" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="URP" />"><@wp.i18n key="URP" /></a>
+             <a class="list-item" href="<@wp.url page="homepage_93926de7" />" title="<@wp.i18n key="VAI_A" /><@wp.i18n key="URP" />"><@wp.i18n key="URP" /></a>
          </li>
      </ul>
   </div>

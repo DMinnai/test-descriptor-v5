@@ -1,5 +1,5 @@
-code: agid_template_internal-base
-description: template agid pagina vuota
+code: agid_template_detail_share
+description: template agid dettaglio con sharing
 configuration:
   frames:
     - pos: 0
@@ -104,7 +104,7 @@ configuration:
         x2: 7
         y2: 4
     - pos: 10
-      description: contenuto laterale 10
+      description: menu laterale 10
       mainFrame: false
       sketch:
         x1: 8
@@ -261,9 +261,6 @@ configuration:
     - pos: 26
       description: cookie colonna 12 26
       mainFrame: false
-      defaultWidget:
-        code: agi_cookie-93926de7
-        properties: null
       sketch:
         x1: 0
         y1: 14
@@ -272,9 +269,49 @@ configuration:
 template: |-
   <#assign wp=JspTaglibs["/aps-core"]>
   <#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
-    <@wp.fragment code="agi_header" escapeXml=false />
-    <@wp.fragment code="keycloak_auth" escapeXml=false />
-    <body class="internal">
+  <#assign jpseo=JspTaglibs["/jpseo-aps-core"]>
+  <#assign jacms=JspTaglibs["/jacms-aps-core"]>
+
+  <@wp.fragment code="agi_header" escapeXml=false />
+  <@wp.fragment code="keycloak_auth" escapeXml=false />
+
+  <@wp.i18n key="COMUNE_PORTAL_TITLE" var="siteName"/>
+  <@wp.i18n key="COMUNE_PORTAL_DESCRIPTION" var="description"/>
+
+  <@wp.currentPage param="code" var="pageCode" />
+  <@wp.currentPage param="title" var="pageTitle" />
+
+  <@wp.info key="systemParam" paramName="applicationBaseURL" var="baseURL"/>
+  <#if (baseURL?last_index_of("/entando-de-app") > -1)>
+  <#assign baseURL = baseURL?substring(0,baseURL?last_index_of("/entando-de-app"))>
+  </#if>
+
+  <@jpseo.seoMetaTag key="social:image" var="metaImage" />
+  <@jpseo.seoMetaTag key="social:description" var="metaDescription" />
+  <@jpseo.seoMetaTag key="social:title" var="metaTitle" />
+
+  <!-- FACEBOOK METAS-->
+  <meta property="og:site_name" content="${siteName}" />
+  <meta property="og:type" content="article" />
+  <#if (metaTitle??) && (metaTitle!="")>
+  <meta property="og:title" content="${metaTitle}" />
+  </#if>
+  <#if (metaDescription??) && (metaDescription!="")>
+  <meta property="og:description" content="${metaDescription}" />
+  </#if>
+  <#if (metaImage??) && (metaImage!="")>
+  <meta property="og:image" content="${baseURL}${metaImage.getImagePath("3")}" />
+  </#if> 
+  <!-- FACEBOOK id statico -->
+  <meta property="fb:app_id" content="409032892503811" />
+
+  <!-- TWITTER METAS -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@Comune_Generico" />
+  <meta name="twitter:title" content="${metaTitle}" />
+  <meta name="twitter:description" content="${metaDescription}" />
+  <meta name="twitter:image" content="${baseURL}${metaImage.getImagePath("0")}" />
+  <body class="internal">
     <header class="it-header-wrapper it-header-sticky">
         <a class="skip-link" href='#main-content'>
             <@wp.i18n key="CONTENUTO_CENTRALE" /></a>
@@ -282,10 +319,8 @@ template: |-
             <@wp.i18n key="SELEZIONE_LINGUA" /></a>
         <a class="skip-link" href='#main-seguici'>
             <@wp.i18n key="SEGUICI" /></a>
-        <a class="skip-link" href='#main-navigazione'>
-            <@wp.i18n key="NAVIGAZIONE_PRIMARIA" /></a>
-        <a class="skip-link" href='#second-navigazione'>
-            <@wp.i18n key="NAVIGAZIONE_SECONDARIA" /></a>
+        <a class="skip-link" href='#main-navigazione'><@wp.i18n key="NAVIGAZIONE_PRIMARIA" /></a>
+        <a class="skip-link" href='#second-navigazione'><@wp.i18n key="NAVIGAZIONE_SECONDARIA" /></a>
         <a class="skip-link" href='#briciole'><@wp.i18n key="BREADCRUMBS" /></a>
         <a class="skip-link" href='#evidenza'><@wp.i18n key="EVIDENZA" /></a>
         <a class="skip-link" href='#main-footer'><@wp.i18n key="FOOTER_PAGINA" /></a>
@@ -334,7 +369,7 @@ template: |-
                     <div class="row">
                         <div class="col-12">
                             <nav class="navbar navbar-expand-lg has-megamenu">
-                                <button  aria-controls="nav10" aria-expanded="false" aria-label="Toggle navigation" class="custom-navbar-toggler"  data-target="#nav10"                                    type="button"                                    >
+                                <button                                    aria-controls="nav10"                                    aria-expanded="false"                                    aria-label="Toggle navigation"                                    class="custom-navbar-toggler"                                    data-target="#nav10"                                    type="button"                                    >
                                     <svg class="icon" aria-labelledby="mobile_access">
                                     <title id="mobile_access">
                                         <@wp.i18n key="MOBILE_MENU_MENU" />
@@ -345,20 +380,13 @@ template: |-
                                 <div class="navbar-collapsable" id="nav10">
                                     <div class="overlay"></div>
                                     <div class="close-div sr-only">
-                                        <button class="btn close-menu" type="button">
-                                            <span class="it-close"></span>
-                                            <@wp.i18n key="CLOSE" />
-                                        </button>
+                                        <button class="btn close-menu" type="button">                                            <span class="it-close"></span>                                            <@wp.i18n key="CLOSE" />                                        </button>
                                     </div>
                                     <div class="menu-wrapper">
                                         <!--navigazione menu-->
-                                        <ul class="navbar-nav" id="main-navigazione">
-                                            <@wp.show frame=6 />
-                                        </ul>
+                                        <ul class="navbar-nav" id="main-navigazione">                                            <@wp.show frame=6 />                                        </ul>
                                         <!-- secondo menu navigazione-->
-                                        <ul class="navbar-nav navbar-secondary" id="second-navigazione">
-                                            <@wp.show frame=7 />
-                                        </ul>
+                                        <ul class="navbar-nav navbar-secondary" id="second-navigazione">                                            <@wp.show frame=7 />                                        </ul>
                                     </div>
                                 </div>
                             </nav>
@@ -376,13 +404,12 @@ template: |-
                 </div>
             </div>
         </section>
-        <@wp.fragment code="agi_service" escapeXml=false />
         <section id="intro" class="container px-4 my-4">
             <@wp.show frame=9 />
             <@wp.show frame=10 />
         </section>
         <section id="in-evidenza">
-            <div class="py-5">
+            <div class="py-0">
                 <div class="container px-4">
                     <@wp.show frame=11 />
                 </div>
@@ -446,8 +473,7 @@ template: |-
                                 </a>
                             </h4>
                             <form action="#" class="form-newsletter" method="post">
-                                <label class="text-white font-weight-semibold" for="input-newsletter"><@wp.i18n key="ISCRIVITI_PER_RICEVERLA" /></label>
-                                <input class="form-control" id="input-newsletter" name="input-newsletter" placeholder="mail@example.com" type="email" />
+                                <label class="text-white font-weight-semibold" for="input-newsletter"><@wp.i18n key="ISCRIVITI_PER_RICEVERLA" /></label>                                <input class="form-control" id="input-newsletter" name="input-newsletter" placeholder="mail@example.com" type="email" />
                                 <button class="btn btn-primary btn-icon" type="submit">
                                     <svg class="icon icon-white" aria-labelledby="send_mail">
                                     <title id="send_mail"><@wp.i18n key="SEND_SUBMIT" /></title>
@@ -470,8 +496,7 @@ template: |-
             </div>
         </div>
     </footer>
-    <@wp.fragment code="agi_check" escapeXml=false />
     <@wp.fragment code="agi_footer" escapeXml=false />
     <@wp.show frame=26 />
-    </body>
-    </html>
+  </body>
+   </html>

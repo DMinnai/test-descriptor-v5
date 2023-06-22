@@ -86,4 +86,12 @@ configuration:
         y1: 5
         x2: 11
         y2: 5
-template: "<#assign wp=JspTaglibs[\"/aps-core\"]>\r\n<@wp.info key=\"systemParam\" paramName=\"applicationBaseURL\" var=\"appUrl\" />\r\n\r\n<html lang=\"en\">\r\n    <head>\r\n        <meta charset=\"utf-8\" />\r\n        <title>\r\n            <@wp.currentPage param=\"title\" />\r\n        </title>\r\n        <meta name=\"viewport\" content=\"width=device-width,  user-scalable=no\" />\r\n        <link rel=\"icon\" href=\"${appUrl}favicon.png\" type=\"image/png\" />\r\n\r\n\r\n        </head>\r\n        <body>\r\n          <header-fragment app-url=\"${appUrl}\">\r\n            <template>\r\n                <@wp.show frame=0 />\r\n                <@wp.show frame=1 />\r\n                <@wp.show frame=2 />\r\n                <@wp.show frame=3 />\r\n            </template>\r\n          </header-fragment>\r\n          <div class=\"bx--grid Homepage__body\">\r\n            <div class=\"bx--row\"><@wp.show frame=4 /></div>\r\n            <div class=\"bx--row\"><@wp.show frame=5 /></div>\r\n            <div class=\"bx--row\"><@wp.show frame=6 /></div>\r\n            <div class=\"bx--row\"><@wp.show frame=7 /></div>\r\n          </div>\r\n          <div class=\"Homepage__footer\"><@wp.show frame=8 /></div>\r\n        </body>\r\n</html>\r\n"
+    - pos: 9
+      description: cookie colonna 12 9
+      mainFrame: false
+      sketch:
+        x1: 0
+        y1: 6
+        x2: 11
+        y2: 6
+template: "<#assign wp=JspTaglibs[\"/aps-core\"]>\r\n<@wp.info key=\"systemParam\" paramName=\"applicationBaseURL\" var=\"appUrl\" />\r\n\r\n<html lang=\"en\">\r\n    <head>\r\n        <meta charset=\"utf-8\" />\r\n        <title>\r\n            <@wp.currentPage param=\"title\" />\r\n        </title>\r\n        <meta name=\"viewport\" content=\"width=device-width,  user-scalable=no\" />\r\n        <link rel=\"icon\" href=\"${appUrl}favicon.png\" type=\"image/png\" />\r\n\r\n\r\n        </head>\r\n        <body>\r\n          <header-fragment app-url=\"${appUrl}\">\r\n            <template>\r\n                <@wp.show frame=0 />\r\n                <@wp.show frame=1 />\r\n                <@wp.show frame=2 />\r\n                <@wp.show frame=3 />\r\n            </template>\r\n          </header-fragment>\r\n          <div class=\"bx--grid Homepage__body\">\r\n            <div class=\"bx--row\"><@wp.show frame=4 /></div>\r\n            <div class=\"bx--row\"><@wp.show frame=5 /></div>\r\n            <div class=\"bx--row\"><@wp.show frame=6 /></div>\r\n            <div class=\"bx--row\"><@wp.show frame=7 /></div>\r\n          </div>\r\n          <div class=\"Homepage__footer\"><@wp.show frame=8 /></div>\r\n    <@wp.show frame=9 />\r\n</body>\r\n</html>\r\n"

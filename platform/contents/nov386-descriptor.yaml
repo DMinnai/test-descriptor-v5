@@ -81,8 +81,16 @@ attributes:
     compositeelements: []
     listelements: {}
   - code: link
-    value: null
-    values: {}
+    value:
+      destType: 2
+      urlDest: null
+      pageDest: agi_news_93926de7
+      contentDest: null
+      resourceDest: null
+      symbolicDestination: '#!P;news!#'
+    values:
+      en: All news
+      it: Tutte le news
     elements: []
     compositeelements: []
     listelements: {}

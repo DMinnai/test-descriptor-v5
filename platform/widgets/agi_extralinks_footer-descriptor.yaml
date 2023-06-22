@@ -13,15 +13,15 @@ customUi: |-
     </p>
     <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
         <li class="list-inline-item">
-            <a href="<@wp.url page="homepage" />" title="<@wp.i18n key="MEDIA" />"><@wp.i18n key="MEDIA" /></a>
+            <a href="<@wp.url page="homepage_93926de7" />" title="<@wp.i18n key="MEDIA" />"><@wp.i18n key="MEDIA" /></a>
         </li>
         <li class="list-inline-item">
-            <a href="<@wp.url page="homepage" />" title="<@wp.i18n key="NOTE" />"><@wp.i18n key="NOTE" /></a>
+            <a href="<@wp.url page="homepage_93926de7" />" title="<@wp.i18n key="NOTE" />"><@wp.i18n key="NOTE" /></a>
         </li>
         <li class="list-inline-item">
-            <a href="<@wp.url page="homepage" />" title="<@wp.i18n key="PRIVACY_P" />"><@wp.i18n key="PRIVACY_P" /></a>
+            <a href="<@wp.url page="homepage_93926de7" />" title="<@wp.i18n key="PRIVACY_P" />"><@wp.i18n key="PRIVACY_P" /></a>
         </li>
         <li class="list-inline-item">
-            <a href="<@wp.url page="homepage" />" title="<@wp.i18n key="MAPPA" />"><@wp.i18n key="DOCUMENTI" /></a>
+            <a href="<@wp.url page="homepage_93926de7" />" title="<@wp.i18n key="MAPPA" />"><@wp.i18n key="DOCUMENTI" /></a>
         </li>
     </ul>

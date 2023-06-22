@@ -11,5 +11,6 @@ paramsDefaults:
   modelId: '20010'
   maxElemForItem: '3'
   maxElements: '3'
+  orClauseCategoryFilter: 'true'
   filters: '(attributeFilter=false;key=created;order=DESC)+(attributeFilter=true;key=highlight;order=DESC)'
   categories: 'adminstration,documents_and_data,services,news'
